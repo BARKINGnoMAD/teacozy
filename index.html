@@ -7,10 +7,8 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="logo">
-        <img src="resources/images/img-tea-cozy-logo.png">
-      </div>
+    <header class="flxcontainer">
+      <img src="resources/images/img-tea-cozy-logo.png">
       <nav>
         <span><a href="#">Mission</a></span>
         <span><a href="#">Featured Tea</a></span>
@@ -18,17 +16,17 @@
     </header>
     <div class="container">
       <!-- Mission Section -->
-      <div class="mission">
+      <div id="mission" class="flxcontainer">
         <div class="missiontitle">
           <h2>Our Mission</h2>
           <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
       </div>
       </div>
       <!-- Tea of the Month Section -->
-      <div class="totm-container">
+      <div id="totm-container">
         <h2> Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy?</h4>
-        <div class="totm-grid">
+        <div id="totm-grid" class="flxcontainer">
           <div class="totm">
             <img src="resources/images/img-berryblitz.jpg">
             <h4>Fall Berry Blitz Tea</h4>
@@ -51,10 +49,37 @@
           </div>
         </div>
       </div>
-      <!-- Location Section -->
-      <div class="loc-container">
+      <!-- Test Section -->
+      <div id="locs-container" class="flxcontainer">
+        <div id="locs-content">
           <h2>Locations</h2>
-          <div class="loc-grid">
+          <div id="locs-row" class="flxcontainer">
+            <div id="locs-box">
+              <h3>Downtown</h3>
+              <p>384 West 4th St</p>
+              <p>Suite 108</p>
+              <p>Portland, Maine</p>
+            </div>
+            <div id="locs-box">
+              <h3>East Bayside</h3>
+              <p>3433 Phisherman's Avenue</p>
+              <p>(Northwest Corner)</p>
+              <p>Portland, Maine</p>
+             </div>
+            <div id="locs-box">
+              <h3>Oakdale</h3>
+              <p>515 Crescent Avenue</p>
+              <p>Second Floor</p>
+              <p>Portland, Maine</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Location Section
+      <div id="loc-container">
+        <h2>Locations</h2>
+        <div id="loc-content" class="flxcontainer">
+          <div id="loc-row" class="flxcontainer">
             <div class="location">
               <h3>Downtown</h3>
               <p>384 West 4th St</p>
@@ -74,9 +99,10 @@
               <p>Portland, Maine</p>
             </div>
           </div>
-      </div>
+        </div>
+      </div> -->
       <!-- Contact Section -->
-      <div class="con-container">
+      <div id="con-container">
         <h2> The Tea Cozy</h2>
         <h5>contact@theteacozy.com</h5>
         <h5>917-555-8904</h5>
@@ -84,7 +110,7 @@
     </div>
     <!-- Footer -->
     <footer>
-      <h6>copyright The Tea Cozy 2017</h6>
+      <h5>copyright The Tea Cozy 2017</h5>
     </footer>
   </body>
 </html>
