@@ -27,6 +27,7 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+  align-items: center;
 }
 header img {
   height: 50px;
@@ -38,7 +39,7 @@ header nav{
 }
 nav span {
   display: inline-block;
-  padding: 10px;
+  padding: 20px 10px;
 }
 .container {
   width: 1200px;
@@ -81,7 +82,7 @@ nav span {
   flex: 1;
 }
 #locs-box {
-  width: 300px;
+  width: 280px;
   background-color: black;
   opacity: 1;
   padding: 10px;
